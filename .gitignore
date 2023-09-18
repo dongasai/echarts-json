@@ -1,0 +1,7 @@
+.idea
+vendor
+.fleet
+composer.lock
+.phpunit.result.cache
+Dockerfile
+docker-compose.yml

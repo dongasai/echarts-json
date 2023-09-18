@@ -1,0 +1,29 @@
+{
+    "name": "dongasai/echarts-json",
+    "description": "echart json",
+    "autoload": {
+        "psr-4": {
+            "EchartsJson\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dongasai",
+            "email": "1514582970@qq.com"
+        }
+    ],
+    "require": {
+        "myclabs/php-enum": "^1.8",
+        "php": "^7.4"
+    },
+    "require-dev": {
+        "hisune/echarts-php": "^1.1",
+        "phpunit/phpunit": "^9.6",
+        "symfony/var-dumper": "^5.4"
+    }
+}
