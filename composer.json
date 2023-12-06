@@ -19,7 +19,7 @@
     ],
     "require": {
         "myclabs/php-enum": "^1.8",
-        "php": "^7.4"
+        "php": ">=7.4"
     },
     "require-dev": {
         "hisune/echarts-php": "^1.1",
