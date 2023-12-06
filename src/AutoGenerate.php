@@ -201,7 +201,10 @@ PHP;
                 $default = " = " . ($detail['default'] ? 'true' : 'false') . " ";
             } elseif (($detail['type'] == 'number' || in_array('number', $detail['type'])) && is_numeric($detail['default'])) {
                 $default = " = " . $detail['default'] . "";
-            } else {
+            } elseif (($detail['type'] == 'array' ||   strtolower($detail['type'][0]) =='array'  )) {
+                $default = " = " . $detail['default'] . "";
+//                dd($default);
+            }  else {
                 $default = " = \"" . str_replace("'", "\\'", trim($detail['default'], "'")) . "\" ";
             }
         } else {
