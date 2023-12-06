@@ -1,6 +1,6 @@
 # echart json
 
-> apache-echarts是使用json来处理配置想和数据的,这是一个生成json的库
+> 使用json来处理配置项和数据,这是一个生成json的库
 
 
 
