@@ -13,3 +13,12 @@ services:
     volumes:
       - .:/var/www/html
     tty: true
+  php81:
+    build: docker/p81
+    image: echarts:p81
+    privileged: false
+    container_name: echartsjson81
+    restart: unless-stopped
+    volumes:
+      - .:/var/www/html
+    tty: true
