@@ -33,7 +33,7 @@ use EchartsJson\Options\YAxis;
 /**
  *
  */
-class ECharts extends Option
+class ECharts extends AbstractOption
 {
     /**
      * 标题组件，包含主标题和副标题。

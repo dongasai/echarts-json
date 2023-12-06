@@ -40,8 +40,8 @@ abstract class AbstractOption implements \ArrayAccess, \JsonSerializable
 
     public function toArray()
     {
-        $list = get_object_vars($this);
-
+        $data = get_object_vars($this);
+        return $data;
     }
 
     public function jsonSerialize(): string
