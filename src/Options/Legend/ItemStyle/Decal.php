@@ -8,7 +8,7 @@
 
 namespace EchartsJson\Options\Legend\ItemStyle;
 
-use EchartsJson\Option;
+use EchartsJson\AbstractOption;
 
 /**
  * 
@@ -16,7 +16,7 @@ use EchartsJson\Option;
  *
  * 
  */
-class Decal extends Option {
+class Decal extends AbstractOption {
 
 
 

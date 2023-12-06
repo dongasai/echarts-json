@@ -8,7 +8,7 @@
 
 namespace EchartsJson\Options;
 
-use EchartsJson\Option;
+use EchartsJson\AbstractOption;
 
 /**
  * 
@@ -16,7 +16,7 @@ use EchartsJson\Option;
  *
  * 
  */
-class TextStyle extends Option {
+class TextStyle extends AbstractOption {
 
 
 

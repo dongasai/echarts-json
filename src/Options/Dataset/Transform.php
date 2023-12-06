@@ -8,7 +8,7 @@
 
 namespace EchartsJson\Options\Dataset;
 
-use EchartsJson\Option;
+use EchartsJson\AbstractOption;
 
 /**
  * 
@@ -16,7 +16,7 @@ use EchartsJson\Option;
  *
  * 
  */
-class Transform extends Option {
+class Transform extends AbstractOption {
 
 
 

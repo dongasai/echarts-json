@@ -8,7 +8,7 @@
 
 namespace EchartsJson\Options\Series\Leaves\Emphasis;
 
-use EchartsJson\Option;
+use EchartsJson\AbstractOption;
 
 /**
  * 
@@ -16,7 +16,7 @@ use EchartsJson\Option;
  *
  * 
  */
-class ItemStyle extends Option {
+class ItemStyle extends AbstractOption {
 
 
 

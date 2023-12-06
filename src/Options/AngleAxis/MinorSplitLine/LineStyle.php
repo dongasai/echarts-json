@@ -8,7 +8,7 @@
 
 namespace EchartsJson\Options\AngleAxis\MinorSplitLine;
 
-use EchartsJson\Option;
+use EchartsJson\AbstractOption;
 
 /**
  * 
@@ -16,7 +16,7 @@ use EchartsJson\Option;
  *
  * 
  */
-class LineStyle extends Option {
+class LineStyle extends AbstractOption {
 
 
 

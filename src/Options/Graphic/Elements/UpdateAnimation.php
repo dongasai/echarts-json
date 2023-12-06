@@ -8,7 +8,7 @@
 
 namespace EchartsJson\Options\Graphic\Elements;
 
-use EchartsJson\Option;
+use EchartsJson\AbstractOption;
 
 /**
  * 
@@ -16,7 +16,7 @@ use EchartsJson\Option;
  *
  * 
  */
-class UpdateAnimation extends Option {
+class UpdateAnimation extends AbstractOption {
 
 
 

@@ -8,7 +8,7 @@
 
 namespace EchartsJson\Options\Series;
 
-use EchartsJson\Option;
+use EchartsJson\AbstractOption;
 
 /**
  * 
@@ -16,7 +16,7 @@ use EchartsJson\Option;
  *
  * 
  */
-class Progress extends Option {
+class Progress extends AbstractOption {
 
 
 

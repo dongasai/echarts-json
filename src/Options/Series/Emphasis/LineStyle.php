@@ -8,7 +8,7 @@
 
 namespace EchartsJson\Options\Series\Emphasis;
 
-use EchartsJson\Option;
+use EchartsJson\AbstractOption;
 
 /**
  * 
@@ -16,7 +16,7 @@ use EchartsJson\Option;
  *
  * 
  */
-class LineStyle extends Option {
+class LineStyle extends AbstractOption {
 
 
 
@@ -28,7 +28,7 @@ class LineStyle extends Option {
  *     支持使用rgb(255,255,255)，rgba(255,255,255,1)，#fff等方式设置为纯色，也支持设置为渐变色和纹理填充，具体见option.color
          * @var string $color
          */
-         public  $color  = ""#000""  ;
+         public  $color  = "#000"  ;
 
         /**
          * 

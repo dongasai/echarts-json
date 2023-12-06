@@ -8,7 +8,7 @@
 
 namespace EchartsJson\Options\XAxis;
 
-use EchartsJson\Option;
+use EchartsJson\AbstractOption;
 
 /**
  * 
@@ -16,7 +16,7 @@ use EchartsJson\Option;
  *
  * 
  */
-class NameTextStyle extends Option {
+class NameTextStyle extends AbstractOption {
 
 
 

@@ -8,14 +8,14 @@
 
 namespace EchartsJson\Options;
 
-use EchartsJson\Option;
+use EchartsJson\AbstractOption;
 
 /**
  * 
  * 
  * 
  */
-class Series extends Option {
+class Series extends AbstractOption {
 
 
 
@@ -2478,7 +2478,7 @@ class Series extends Option {
          * 图中与坐标轴正交的方向的边界间隙，设置该值是为了调整图的位置，使其尽量处于屏幕的正中间，避免处于屏幕的上方或下方。
          * @var array $boundaryGap
          */
-         public  $boundaryGap  = ["10%", "10%"]  ;
+         public  $boundaryGap  = "["10%", "10%"]"  ;
 
         /**
          * 单个时间轴的index，默认值为0，因为只有单个轴。

@@ -8,7 +8,7 @@
 
 namespace EchartsJson\Options\Toolbox\Feature\MagicType;
 
-use EchartsJson\Option;
+use EchartsJson\AbstractOption;
 
 /**
  * 
@@ -16,7 +16,7 @@ use EchartsJson\Option;
  *
  * 
  */
-class IconStyle extends Option {
+class IconStyle extends AbstractOption {
 
 
 

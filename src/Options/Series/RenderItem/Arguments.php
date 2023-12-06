@@ -8,7 +8,7 @@
 
 namespace EchartsJson\Options\Series\RenderItem;
 
-use EchartsJson\Option;
+use EchartsJson\AbstractOption;
 
 /**
  * 
@@ -16,7 +16,7 @@ use EchartsJson\Option;
  *
  * 
  */
-class Arguments extends Option {
+class Arguments extends AbstractOption {
 
 
 

@@ -8,7 +8,7 @@
 
 namespace EchartsJson\Options\SingleAxis\SplitArea;
 
-use EchartsJson\Option;
+use EchartsJson\AbstractOption;
 
 /**
  * 
@@ -16,7 +16,7 @@ use EchartsJson\Option;
  *
  * 
  */
-class AreaStyle extends Option {
+class AreaStyle extends AbstractOption {
 
 
 

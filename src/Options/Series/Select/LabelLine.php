@@ -8,7 +8,7 @@
 
 namespace EchartsJson\Options\Series\Select;
 
-use EchartsJson\Option;
+use EchartsJson\AbstractOption;
 
 /**
  * 
@@ -16,7 +16,7 @@ use EchartsJson\Option;
  *
  * 
  */
-class LabelLine extends Option {
+class LabelLine extends AbstractOption {
 
 
 

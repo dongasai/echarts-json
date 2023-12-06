@@ -8,7 +8,7 @@
 
 namespace EchartsJson\Options\Aria\Label\Series;
 
-use EchartsJson\Option;
+use EchartsJson\AbstractOption;
 
 /**
  * 
@@ -16,7 +16,7 @@ use EchartsJson\Option;
  *
  * 
  */
-class Multiple extends Option {
+class Multiple extends AbstractOption {
 
 
 

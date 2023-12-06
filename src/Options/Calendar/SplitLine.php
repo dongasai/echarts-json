@@ -8,7 +8,7 @@
 
 namespace EchartsJson\Options\Calendar;
 
-use EchartsJson\Option;
+use EchartsJson\AbstractOption;
 
 /**
  * 
@@ -16,7 +16,7 @@ use EchartsJson\Option;
  *
  * 
  */
-class SplitLine extends Option {
+class SplitLine extends AbstractOption {
 
 
 

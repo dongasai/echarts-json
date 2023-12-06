@@ -8,7 +8,7 @@
 
 namespace EchartsJson\Options;
 
-use EchartsJson\Option;
+use EchartsJson\AbstractOption;
 
 /**
  * 
@@ -16,7 +16,7 @@ use EchartsJson\Option;
  *
  * 
  */
-class YAxis extends Option {
+class YAxis extends AbstractOption {
 
 
 
@@ -116,9 +116,7 @@ class YAxis extends Option {
          * 坐标轴名称的文字样式。
          * @var YAxis\NameTextStyle $nameTextStyle
          */
-         public YAxis\NameTextStyle $nameTextStyle ;
-
-
+         public YAxis\NameTextStyle $nameTextStyle  ;
 
         /**
          * 

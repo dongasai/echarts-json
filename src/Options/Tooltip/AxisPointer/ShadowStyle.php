@@ -8,7 +8,7 @@
 
 namespace EchartsJson\Options\Tooltip\AxisPointer;
 
-use EchartsJson\Option;
+use EchartsJson\AbstractOption;
 
 /**
  * 
@@ -16,7 +16,7 @@ use EchartsJson\Option;
  *
  * 
  */
-class ShadowStyle extends Option {
+class ShadowStyle extends AbstractOption {
 
 
 

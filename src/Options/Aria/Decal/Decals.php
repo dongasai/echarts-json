@@ -8,7 +8,7 @@
 
 namespace EchartsJson\Options\Aria\Decal;
 
-use EchartsJson\Option;
+use EchartsJson\AbstractOption;
 
 /**
  * 
@@ -16,7 +16,7 @@ use EchartsJson\Option;
  *
  * 
  */
-class Decals extends Option {
+class Decals extends AbstractOption {
 
 
 

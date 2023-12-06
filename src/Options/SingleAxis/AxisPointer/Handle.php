@@ -8,7 +8,7 @@
 
 namespace EchartsJson\Options\SingleAxis\AxisPointer;
 
-use EchartsJson\Option;
+use EchartsJson\AbstractOption;
 
 /**
  * 
@@ -16,7 +16,7 @@ use EchartsJson\Option;
  *
  * 
  */
-class Handle extends Option {
+class Handle extends AbstractOption {
 
 
 

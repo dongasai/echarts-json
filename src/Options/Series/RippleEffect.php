@@ -8,7 +8,7 @@
 
 namespace EchartsJson\Options\Series;
 
-use EchartsJson\Option;
+use EchartsJson\AbstractOption;
 
 /**
  * 
@@ -16,7 +16,7 @@ use EchartsJson\Option;
  *
  * 
  */
-class RippleEffect extends Option {
+class RippleEffect extends AbstractOption {
 
 
 

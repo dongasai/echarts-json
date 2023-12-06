@@ -8,7 +8,7 @@
 
 namespace EchartsJson\Options\Radar;
 
-use EchartsJson\Option;
+use EchartsJson\AbstractOption;
 
 /**
  * 
@@ -16,7 +16,7 @@ use EchartsJson\Option;
  *
  * 
  */
-class AxisName extends Option {
+class AxisName extends AbstractOption {
 
 
 

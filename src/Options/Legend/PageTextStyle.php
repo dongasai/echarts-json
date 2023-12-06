@@ -8,7 +8,7 @@
 
 namespace EchartsJson\Options\Legend;
 
-use EchartsJson\Option;
+use EchartsJson\AbstractOption;
 
 /**
  * 
@@ -16,7 +16,7 @@ use EchartsJson\Option;
  *
  * 
  */
-class PageTextStyle extends Option {
+class PageTextStyle extends AbstractOption {
 
 
 

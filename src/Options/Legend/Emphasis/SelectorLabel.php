@@ -8,7 +8,7 @@
 
 namespace EchartsJson\Options\Legend\Emphasis;
 
-use EchartsJson\Option;
+use EchartsJson\AbstractOption;
 
 /**
  * 
@@ -16,7 +16,7 @@ use EchartsJson\Option;
  *
  * 
  */
-class SelectorLabel extends Option {
+class SelectorLabel extends AbstractOption {
 
 
 

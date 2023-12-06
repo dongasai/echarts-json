@@ -8,7 +8,7 @@
 
 namespace EchartsJson\Options\Toolbox\Feature\DataZoom;
 
-use EchartsJson\Option;
+use EchartsJson\AbstractOption;
 
 /**
  * 
@@ -16,7 +16,7 @@ use EchartsJson\Option;
  *
  * 
  */
-class BrushStyle extends Option {
+class BrushStyle extends AbstractOption {
 
 
 

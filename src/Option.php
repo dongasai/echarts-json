@@ -6,7 +6,7 @@ namespace EchartsJson;
  * 配置项基类
  *
  */
-abstract class Option implements \ArrayAccess, \JsonSerializable
+abstract class AbstractOption implements \ArrayAccess, \JsonSerializable
 {
 
     public function offsetExists($offset)

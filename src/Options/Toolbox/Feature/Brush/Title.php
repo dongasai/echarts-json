@@ -8,7 +8,7 @@
 
 namespace EchartsJson\Options\Toolbox\Feature\Brush;
 
-use EchartsJson\Option;
+use EchartsJson\AbstractOption;
 
 /**
  * 
@@ -16,7 +16,7 @@ use EchartsJson\Option;
  *
  * 
  */
-class Title extends Option {
+class Title extends AbstractOption {
 
 
 

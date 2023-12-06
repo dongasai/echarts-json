@@ -8,7 +8,7 @@
 
 namespace EchartsJson\Options\RadiusAxis;
 
-use EchartsJson\Option;
+use EchartsJson\AbstractOption;
 
 /**
  * 
@@ -16,7 +16,7 @@ use EchartsJson\Option;
  *
  * 
  */
-class AxisLabel extends Option {
+class AxisLabel extends AbstractOption {
 
 
 

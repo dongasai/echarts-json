@@ -8,7 +8,7 @@
 
 namespace EchartsJson\Options\Toolbox\Feature;
 
-use EchartsJson\Option;
+use EchartsJson\AbstractOption;
 
 /**
  * 
@@ -16,7 +16,7 @@ use EchartsJson\Option;
  *
  * 
  */
-class Restore extends Option {
+class Restore extends AbstractOption {
 
 
 

@@ -8,7 +8,7 @@
 
 namespace EchartsJson\Options\Toolbox;
 
-use EchartsJson\Option;
+use EchartsJson\AbstractOption;
 
 /**
  * 
@@ -16,7 +16,7 @@ use EchartsJson\Option;
  *
  * 
  */
-class Feature extends Option {
+class Feature extends AbstractOption {
 
 
 

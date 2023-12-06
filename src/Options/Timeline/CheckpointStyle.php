@@ -8,7 +8,7 @@
 
 namespace EchartsJson\Options\Timeline;
 
-use EchartsJson\Option;
+use EchartsJson\AbstractOption;
 
 /**
  * 
@@ -16,7 +16,7 @@ use EchartsJson\Option;
  *
  * 
  */
-class CheckpointStyle extends Option {
+class CheckpointStyle extends AbstractOption {
 
 
 

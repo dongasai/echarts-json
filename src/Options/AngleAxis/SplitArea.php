@@ -8,7 +8,7 @@
 
 namespace EchartsJson\Options\AngleAxis;
 
-use EchartsJson\Option;
+use EchartsJson\AbstractOption;
 
 /**
  * 
@@ -16,7 +16,7 @@ use EchartsJson\Option;
  *
  * 
  */
-class SplitArea extends Option {
+class SplitArea extends AbstractOption {
 
 
 

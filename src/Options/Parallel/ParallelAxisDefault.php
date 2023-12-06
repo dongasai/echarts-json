@@ -8,7 +8,7 @@
 
 namespace EchartsJson\Options\Parallel;
 
-use EchartsJson\Option;
+use EchartsJson\AbstractOption;
 
 /**
  * 
@@ -16,7 +16,7 @@ use EchartsJson\Option;
  *
  * 
  */
-class ParallelAxisDefault extends Option {
+class ParallelAxisDefault extends AbstractOption {
 
 
 

@@ -8,7 +8,7 @@
 
 namespace EchartsJson\Options\VisualMap;
 
-use EchartsJson\Option;
+use EchartsJson\AbstractOption;
 
 /**
  * 
@@ -16,7 +16,7 @@ use EchartsJson\Option;
  *
  * 
  */
-class IndicatorStyle extends Option {
+class IndicatorStyle extends AbstractOption {
 
 
 

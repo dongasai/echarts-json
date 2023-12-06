@@ -149,14 +149,14 @@ class AutoGenerate
 
 namespace EchartsJson\Options{$namespace};
 
-use EchartsJson\Option;
+use EchartsJson\AbstractOption;
 
 /**
  * 
  * {__description__}
  * 
  */
-class {$name} extends Option {
+class {$name} extends AbstractOption {
 
 
 //{_more_}

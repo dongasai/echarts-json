@@ -8,7 +8,7 @@
 
 namespace EchartsJson\Options\Geo;
 
-use EchartsJson\Option;
+use EchartsJson\AbstractOption;
 
 /**
  * 
@@ -16,7 +16,7 @@ use EchartsJson\Option;
  *
  * 
  */
-class Blur extends Option {
+class Blur extends AbstractOption {
 
 
 
