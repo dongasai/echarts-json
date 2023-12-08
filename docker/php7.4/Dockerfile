@@ -1,10 +1,8 @@
 
 FROM php:7.4-apache
 
-ENV REFRESH_DATE 2019年05月15日11:19:26
-
+ENV UPDATE4=6
 RUN sed -i "s@http://\(deb\|security\).debian.org@https://mirrors.aliyun.com@g" /etc/apt/sources.list
-
 
 RUN apt-get update
 RUN apt-get install -y vim wget zip zlib1g-dev autoconf automake libtool git
@@ -22,9 +20,9 @@ RUN wget https://github.com/kkos/oniguruma/archive/v${ORIGURUMA_VERSION}.tar.gz 
     && make install
 
 # 安装必要的扩展
-RUN docker-php-ext-install bcmath mbstring pdo pdo_mysql zip;docker-php-ext-enable pdo pdo_mysql;
-RUN pecl install redis \
-    && docker-php-ext-enable redis
+RUN docker-php-ext-install bcmath mbstring   zip;docker-php-ext-enable  bcmath mbstring  ;
+
+
 
 
 

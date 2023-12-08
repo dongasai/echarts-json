@@ -1,11 +1,10 @@
 version: '2'
 networks:
-  default:
-    external:
-      name: ggggg
+  ggggg:
+    external: true
 services:
   php74:
-    build: .
+    build: docker/php7.4
     image: echarts:p74
     privileged: false
     container_name: echartsjson

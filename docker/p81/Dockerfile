@@ -1,6 +1,8 @@
 
-FROM php:8.1-cli
+FROM php:8.1.26-apache
 
+#RUN sed -i "s@http://\(deb\|security\).debian.org@https://mirrors.aliyun.com@g" /etc/apt/sources.list
+#
 RUN apt-get update
 RUN apt-get install -y vim wget zip zlib1g-dev autoconf automake libtool git
 
